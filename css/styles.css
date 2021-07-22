@@ -1,0 +1,78 @@
+.wrapper{
+    width: 835px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-texts{
+    width: 530px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    color: #22262A; 
+}
+.logo{
+    width:  156px;
+}
+section{
+    width: 1600px;
+    height: 750px;
+    position: absolute;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+        bottom: 369px;
+        left: 1200px;
+        color: black;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+        top: 330px;
+        left: 1000px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+        top: 190px;
+        right: 180px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+        bottom: 460px;
+        right: 300px;
+        color: black;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 20%;
+  left: 65%;
+    transform: translate(-50%, -50%);
+    color: #22262A;  
+          
+  
+      
+    
+      
+      
+      
+      
